@@ -21,7 +21,10 @@ int main()
         cout << "Enter next persons age or -1 to quit: " << endl;
         cin >> age;
     }
-    cout << "The total is " << ageTotal << numberOfPeople << endl;
+
+    cout << "Number of people entered: " << numberOfPeople << endl;
+
+    cout << "The average is " << ageTotal / numberOfPeople << endl;
 
     // -----------------------program to take input frm user and get the sum--------------------------
 
